@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<style>
+    .hide{
+        display: none;
+    }
+</style>
+<body>
+
+    <div id="SignUp">
+        <form onsubmit="CreateUser()">
+            <div class="container">
+                <nav class="na">
+                    <img src="logo.png"  class="logo" alt="">
+                </nav>
+
+                <div class="main">
+                    
+                    <div class="main-content">
+                        <h3 class="sign">Sign Up</h3>
+        
+        
+        
+                        <input type="text" placeholder=" Enter Your Name" class="inp"  id="CreateName">
+                        <input type="text" placeholder="Enter Last LastName" class="inp" id="CreateLastName">
+                        
+                        <input type="email" class="inp"  placeholder="Enter Your Email" id="CreateEmail">
+                        <input type="password" class="inp" placeholder="Enter Your Password" id="CreatePassword">
+
+                        <button onclick="Remove()" class="btn">SignUp</button>
+                    </div>   
+             
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <div id="Login" class="hide">
+    
+        <form>
+            <div class="container">
+
+                <nav class="na">
+                    <img src="logo.png"  class="logo" alt="">
+                </nav>
+                <div class="main">
+                    <form action="">
+                    <div class="main-content">
+                        <h3 class="sign">Login</h3>
+
+
+                        <input type="email" placeholder="Enter Your Email" id="login_name" class="inp">
+                        <input type="password" placeholder="Enter Your Password" id="login_pin" class="inp">
+        
+                        <!-- <input type="submit" value="Sign In" class="btn"> -->
+                        <button onclick="LoginData()" class="btn">login</button>
+                       
+                        <a href="" class="help">SignUp Now</a>
+                    </form>
+                    </div>
+                   
+                </div>
+            </div>
+        </form>
+
+    </div>
+   
+</body>
+ <script src="net.js"></script>
+</html>

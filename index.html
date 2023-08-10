@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grocery Store</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/phone.css' rel='stylesheet'>
+</head>
+<body>
+  
+ 
+    <header class="header">
+      <div class="inner">
+          <div id="logo">
+              <h1>W<u>&</u>A </h1><span id="logo-inner"><u></u> GROCERY STORE</span>
+          </div>
+          <nav>
+              <ul class="nav-bar">
+                  <li>Home</a></li>
+                  <li>Items</a></li>
+                  <li>About</a></li>
+                  <li>Contact</a></li>
+              </ul>
+          </nav>
+      </div>
+
+  </header>
+  <!-- <h2>Available Products</h2> -->
+ 
+  <main>
+    
+    <section class="total" id="shopping-cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items">
+        <!-- Dynamically populated cart items will go here -->
+      </ul>
+      <button id="checkout">Checkout</button>
+    </section>
+    
+    <section class="total" id="summary">
+      <h2>BILL</h2> 
+      <p id="total">Total: 0.00</p>
+      <!-- <p id="profit">Profit: 0.00</p> -->
+    </section>
+   
+    
+    <section id="product-list">
+
+      <div class="product">
+        <img id="img2" src="choclate biscuits.png" alt="Product 1">
+
+        <h3>Choclate biscuits</h3>
+        <p>Rs.300</p>
+        <!-- <p id="quantityy"> <b>Total Quantity:30 </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+
+      <div class="product">
+        <img src="jam 440 g.jpg" alt="Product 2">
+        <h3>National Jam</h3>
+        <p>Rs.450</p>
+        <!-- <p id="quantityy"> <b>Total Quantity:30 </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+
+      <div class="product">
+        <img src="kashmir oil 5 litre.jpg" alt="Product 3">
+        <h3>kashmir oil 5 litre</h3>
+        <p>Rs.600</p>
+        <!-- <p id="quantityy"> <b>Total Quantity:30 </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+
+      <div class="product">
+        <img src="ketchup 400gm.jpeg" alt="Product 2">
+        <h3>ketchup 400gm</h3>
+        <p>Rs.250</p>
+        <!-- <p id="quantityy"> <b>Total Quantity:30 </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+
+      <div class="product">
+        <img src="lays.png" alt="Product 2">
+        <h3>lays</h3>
+        <p>Rs.100</p>
+        <!-- <p id="quantityy"> <b>Total Quantity:30 </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img id="img2" src="lipton.png" alt="Product 1">
+        <h3>Lipton</h3>
+        <p>Rs.320</p> 
+        <!-- <p id="quantityy"> <b>Total Quantity:30 </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+
+      <div class="product">
+        <img src="maggi.png" alt="Product 2">
+        <h3>Maggi Noodles</h3>
+        <p>Rs.60</p>
+        <!-- <p id="quantityy"> <b>Total Quantity:30 </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+
+      <div class="product">
+        <img src="23.png" alt="Product 3">
+        <h3>Goldleaf white</h3>
+        <p>Rs.250</p>
+        <!-- <p id="quantityy"> <b>Total Quantity:30 </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+
+      <div class="product">
+        <img src="rice.png" alt="Product 2">
+        <h3>Rice 1kg</h3>
+        <p>Rs.310</p>
+        <!-- <p id="quantityy"> <b>Total Quantity:30 </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      
+      <div class="product">
+        <img src="sugar 1kg.png" alt="Product 2">
+        <h3>Sugar 1kg</h3>
+        <p>Rs.430.00</p>
+        <!-- <p id="quantityy"> <b>Total Quantity:30  </b></p> -->
+        <input type="number" min="0" class="quantity" placeholder="Quantity">
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <!-- Add more product listings here -->
+    </section>
+    
+    
+  </main>
+
+
+  <footer id="footer">
+
+        <h1>CONTACT US</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero consequuntur quasi!</p>
+        <P> <b>0309-7453836 </b></P>
+        <P> <b>0348-7422001 </b></P>
+
+        <!-- <i class="gg-phone"></i> -->
+        <!-- <h3></h3> -->
+        <div class="page-footer__inner"><span class="page-footer__copyright">&copy; Copyright 2013 Bak-One | One Page
+          Flat Template</span>
+
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
